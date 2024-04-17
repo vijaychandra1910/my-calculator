@@ -1,0 +1,35 @@
+#view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.calculator{
+    border:1px solid rgb(157, 157, 157);
+    border-radius:5px;
+    width:15rem;
+    background-color:rgb(53, 52, 52);
+}
+#display{
+    background-color:#7b8a3f81;
+    margin:10px;
+    width:89%;
+    font-size:25px;
+    padding: 5px 2px;
+}
+.button-container{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap
+    
+}
+.button {
+    background-color: #9baf4c;
+    width: 50px;
+    height:50px;
+    margin:8px;
+    border:1px solid black;
+    border-radius:10px;
+    
+}
